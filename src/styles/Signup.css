@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    /* background-color: black; */
+}
+.main{
+    height:70vh;
+    width:30vw;
+    border: 1px solid rgba(130, 91, 91, 0.392);
+    margin:1px;
+    padding: 0.5rem;
+    position: absolute;
+    left: 400px;
+    top: 30px;
+}
+.logo{
+    background-image: url("../../logo.png");
+    height: 40px;
+    width: 180px;
+    margin:1em;
+    margin-bottom:2rem;
+    background-repeat: no-repeat;
+    background-color:black;
+    align-items: center;
+    position: relative;
+    /* background-position: ; */
+    left: 85px;
+}
+p{
+    margin-top:0;
+    text-align: center;
+    color:rgba(8, 8, 8, 0.53);
+    font-weight: bold;
+}
+input{
+    width: 250px;
+    height: 30px;
+    margin: 0.2em;
+    background-color:rgb(239, 232, 232);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgba(130, 91, 91, 0.392);
+    /* box-shadow: 1px 1px rgba(130,91,91,0.392); */
+}
+.login{
+    margin:1rem;
+    width:260px;
+    height: 30px;
+    background-color: rgba(17, 17, 244, 0.537);
+    border:none;
+    border-radius :5px;
+    color:white;
+}
+button{
+    cursor: pointer;
+}
+.input{
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+}
+.forgot{
+    text-align: center;
+    font-size: small;
+    cursor: pointer;
+}
+.signup{
+    position: absolute;
+    padding:1em;
+    top: 520px;
+    left: 400px;
+    height:8vh;
+    width:29vw;
+    border: 1px solid rgba(130, 91, 91, 0.392); 
+    text-align: center;
+}
+.signup strong{
+    cursor: pointer;
+    color:blue;
+}
