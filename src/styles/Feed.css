@@ -1,0 +1,70 @@
+.h6{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    margin:1em;
+    position: absolute;
+    left:500px;
+    top: 15px;
+    color:black;
+    margin:1rem;
+}
+
+.side{
+    position:absolute;
+    border-bottom:1px solid rgba(130, 91, 91, 0.392);
+    width:100vw;
+    height:10vh;
+    box-shadow: 0px 0px 0px 1px rgba(130,91,91,.392);
+}
+
+.p{
+    height:7vh;
+    position: absolute;
+    top: 19px;
+    right: 25px;
+}
+.upload{
+    padding-top:5rem;
+    padding-left:27rem;
+}
+input[type='file']{
+    z-index: -1;
+    position: absolute;
+    opacity: 0;
+}
+label{
+    border: 2px solid black;
+    background-color: rgb(187, 104, 21);
+    color:rgb(14, 229, 28);
+    margin-left:5rem;
+    font-size: medium;
+}
+
+.logout-button{
+    border: 5px solid rgb(0, 32, 128);
+    background-color: whitesmoke;
+    margin:1rem;
+    padding:.2rem;
+    border-radius:20px;
+    cursor: pointer;
+}
+.logout-button:hover{
+    transform: scale(1.01);
+    background-color: yellowgreen;
+    size: 5rem;
+}
+.reels{
+    height:70vh;
+    width:90vw;
+    border: 2px solid black;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.post{
+    height:20%;
+    width:10%;
+    margin:1rem;
+    margin-bottom:0.4rem;
+}

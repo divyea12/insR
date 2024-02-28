@@ -1,0 +1,63 @@
+h6{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    margin:1em;
+    position: absolute;
+    left: 100px;
+    color:black;
+}
+.ins{
+    border-bottom:1px solid rgb(164, 162, 162);
+    height: 10vh;   
+}
+input{
+    width: 250px;
+    height: 30  px;
+    margin: 0.2em;
+    background-color:rgba(239, 232, 232, 0.24);
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid rgba(130, 91, 91, 0.392);
+    /* box-shadow: 1px 1px rgba(130,91,91,0.392); */
+}
+
+.inputt{
+    margin-top:2rem;    
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+    border:1px solid rgba(130, 91, 91, 0.392);
+    height:60vh;
+    position: absolute;
+    left: 380px;
+}
+
+.ss{
+    position: relative;
+    top: -35px;
+    color:rgba(137, 96, 96, 0.794);
+}
+.s{
+    color:rgba(130, 91, 91, 0.392);
+    /* position: relative; */
+    top: 6px;
+}
+.back{
+    background-color: rgba(239, 232, 232, 0.24);;
+    border:1px solid rgba(130, 91, 91, 0.392);
+    height: 2.1rem;
+    width:100%;
+    position:absolute;
+    top: 345px;
+    text-align: center;
+}
+.link{
+    color:rgba(30, 24, 24, 0.392);
+    border:0;   
+    /* position: relative; */
+    /* top: 0px; */
+    text-align: center;
+}
+
