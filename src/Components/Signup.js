@@ -17,7 +17,7 @@ function Signup() {
   async function SignUpHandler(){
     try{
       console.log("in");  
-      let res = await axios.post("http://localhost:3001/signup",{name:name,email:email,username:username,password:password,confirmPassword:confirmPassword});
+      let res = await axios.post("https://inst-ulln.onrender.com/signup",{name:name,email:email,username:username,password:password,confirmPassword:confirmPassword});
       console.log(res.data.err);
       if(res.data.message=="Email already used"){
         window.alert("Email already used. Use another email to signup");

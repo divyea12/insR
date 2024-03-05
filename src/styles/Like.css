@@ -1,0 +1,20 @@
+.like{
+    position:relative;
+    top:0rem;
+    left:5rem;
+    width: 50px;
+    background-color: red;
+}
+.like-btn{
+    border:none;
+    background-color:rgba(221, 0, 255, 0.187);
+    opacity:10;
+}
+
+.unlike{
+    position:relative;
+    top:0rem;
+    left:5rem;
+    width: 50px;
+    background-color: white;
+}

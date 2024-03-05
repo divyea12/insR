@@ -13,7 +13,7 @@ function ResetPass() {
     const navigate = useNavigate();
     async function ResetHandler() {
         try {
-            let res = await axios.post("http://localhost:3001/resetPassword", { email:email,password: password, confirmPassword: confirmPassword,otp:otp });
+            let res = await axios.post("https://inst-ulln.onrender.com/resetPassword", { email:email,password: password, confirmPassword: confirmPassword,otp:otp });
             console.log(res.data);
             if(res.data.message=='password changed'){
                 window.alert("password changed");

@@ -15,7 +15,7 @@ function Login() {
   const[password,setPassword] = useState(); 
   async function LoginHandler(){
     try{
-      let res = await axios.post("http://localhost:3001/login",{email:email,password:password});
+      let res = await axios.post("https://inst-ulln.onrender.com/login",{email:email,password:password});
       console.log(res.data.user);
       setUser(res.data.user);
       localStorage.setItem("user",JSON.stringify(res.data.user));
@@ -43,7 +43,7 @@ function Login() {
         </div>
         <div className='input'>
           <label for='username' type='email'id='email'></label>
-          <input type='email' placeholder='email' required  onChange={(e)=>setEmail(e.target.value)}/>
+          <input type='email' placeholder='email' autoComplete={true} required  onChange={(e)=>setEmail(e.target.value)}/>
           <input type='password' placeholder='password' required  onChange={(e)=>setPassword(e.target.value)}/>
           <button className='login' type='submit' onClick={LoginHandler} >Log in</button>
         </div>

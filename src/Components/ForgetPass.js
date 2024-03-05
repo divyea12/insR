@@ -11,7 +11,7 @@ function ForgetPass() {
   async function ForgetHandler() {
     try {
       console.log(email);
-      let res = await axios.post("http://localhost:3001/forgetPassword", { email: email });
+      let res = await axios.post("https://inst-ulln.onrender.com/forgetPassword", { email: email });
       console.log(res.data);
       if (res.data.message == 'Signup first'){
         window.alert("sign up first");
